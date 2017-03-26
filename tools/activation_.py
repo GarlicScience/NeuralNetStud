@@ -16,3 +16,7 @@ def logistic(x, alpha=0.01):
 
 def dlogistic(x, alpha):
     return alpha * logistic(x, alpha) * (1 - logistic(x, alpha))
+
+
+ACTIVATION = {'sgn': sgn, 'logistic': logistic}
+FIRST_DERIVATIVES = {'sgn': dsgn, 'logistic': dlogistic}

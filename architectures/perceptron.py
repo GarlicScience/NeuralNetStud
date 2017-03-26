@@ -1,62 +1,18 @@
-""" One layered rosenblatt perceptron.
+""" One layered Rosenblatt's perceptron classifier.
 """
-
 
 import numpy as np
 
 from enum import Enum
 from tools import activation_ as ac
-
-
-_ACTIVATION = {'sgn': ac.sgn, 'logistic': ac.logistic}
-_FIRST_DERIVATIVES = {'sgn': ac.dsgn, 'logistic': ac.dlogistic}
-
-
-class PerceptronUnit:
-    """
-    Primitive of one perceptron.
-    Attributes:
-
-        input_size : int
-            Size of input data vector
-
-        function : {'tanh', 'sgn', 'logistic'}
-            Activation function
-    """
-
-    def init(self, input_size, function):
-        self.input_size = input_size
-        self.function = function
-
-
-def _add_logs(row, path='../examples/logs/lab1_log17'):
-    """
-    :param row: string to add
-    Appends string to logfile
-    """
-    try:
-        with open(path, 'a') as TextFile:
-            print(row, file=TextFile)
-    except FileNotFoundError:
-        print("ERR. File is not found.")
-
-
-def _clear_logs(path='../examples/logs/lab1_log17'):
-    """
-    Clears logfile
-    """
-    try:
-        with open(path, 'w') as TextFile:
-            TextFile.write(' ')
-    except FileNotFoundError:
-        print("ERR. File to clear is not found.")
+from basics import cell_units as unit_
 
 
 class LearningResult(Enum):
     CONVERGENCE, DIVERGENCE = 0, 1
 
 
-class RosenblattClassifier(PerceptronUnit):
+class RosenblattClassifier(unit_.CellUnit):
     """
         Single-perceptron rosenblatt classifier.
 
@@ -64,10 +20,6 @@ class RosenblattClassifier(PerceptronUnit):
 
             input_size : int
                 Size of input data vector
-
-            function : {'tanh', 'sgn', 'logistic'}
-                Activation function
-                * default : 'sgn'
 
             learning_rate : float
                 Weights changing rate
@@ -83,14 +35,6 @@ class RosenblattClassifier(PerceptronUnit):
                 Required net() accuracy
 
         Attributes:
-
-            weights_ : list of floats
-                Weight coefficients for each input of sensor layer. Should be initialized
-                * default : None
-
-            bias_ : float
-                Neuron bias value. Should be initialized
-                * default : None
 
             loss_value_ : float
                 Current value of loss function. Should be initialized
@@ -130,15 +74,12 @@ class RosenblattClassifier(PerceptronUnit):
 
     def __init__(self, input_size, function='sgn', method='rosenblatt', learning_rate=0.001,
                  max_iter=0, epsilon=1e-3, alpha=1000, weights_=None, bias_=None):
-        self.init(input_size, function)
+        self.init(input_size, function, weights_=weights_, bias_=bias_, alpha=alpha)
         self.learning_rate = learning_rate
         self.max_iter = max_iter
         self.epsilon = epsilon
-        self.alpha = alpha
         self.X_ = None
         self.d_ = None
-        self.weights_ = weights_
-        self.bias_ = bias_
         self.method = method
         self.n_iter_ = None
         self.n_epoch_ = None
@@ -146,7 +87,7 @@ class RosenblattClassifier(PerceptronUnit):
         self.visualization_ = 0
         self.log_ = False
         self.w_ = []
-        self.log_path=None
+        self.log_path = None
 
     def initialize_net(self):
         """ Initializes:
@@ -169,37 +110,23 @@ class RosenblattClassifier(PerceptronUnit):
         self.X_ = X_.copy()
         self.d_ = d_.copy()
 
-    def derivative(self, f, x, alpha=0.001):
-        return _FIRST_DERIVATIVES[f](self._inducted_field(x), alpha)
-
-    def net(self, x):
-        """ Network trial method
-        :param x : np.array
-            Input vector
-        :return: net(x) : 1 or 0
-            Network answer
-        """
-        return _ACTIVATION[self.function](self._inducted_field(x), self.alpha)
-
-    def _inducted_field(self, x):
-        """ Inducted field counting method
-        :param x: np.array(float)
-        :return: inducted field by perceptron
-        """
-        x = np.array(x)
-        assert type(x) == np.ndarray, 'ERR: Use numpy.array type for input vector instead of' + str(type(x))
-        assert len(x) == len(self.weights_), 'ERR: Wrong dim(x): ' + str(len(x)) + ' must be ' + str(len(self.weights_))
-        return self.weights_.dot(np.transpose(x)) + self.bias_
+    def derivative(self, f, x, alpha=1):
+        return ac.FIRST_DERIVATIVES[f](self._inducted_field(x), alpha)
 
     def _init_visualisation(self, enable):
         self.visualization_ = True
 
     def set_log_(self, log_, log_path='../examples/logs/lab1_log17'):
+        """
+        :param log_: bool
+            Enabled/Disabled logging
+        :param log_path: string
+            path to log file
+            * default : ../examples/logs/lab1_log17
+        """
         assert type(log_) == bool, 'ERR: Use bool for setting log_ value'
         self.log_ = log_
         self.log_path = log_path
-        if log_:
-            _clear_logs()
 
     def _pack(self):
         """ Turns learning set into a list of dicts = [{'x': X_[0], 'd': d_[0]}, {'x': X_[1], 'd': d_[1]}, ...]
@@ -214,7 +141,7 @@ class RosenblattClassifier(PerceptronUnit):
     def learn(self):
         """Learning procedure. Executes learning methods up to set.
         :return LearningResult.CONVERGENCE or LearningResult.DIVERGENCE up to algorithm success"""
-        assert self.function in _ACTIVATION.keys(), 'ERR: Wrong activation function'
+        assert self.function in ac.ACTIVATION.keys(), 'ERR: Wrong activation function'
         if self.method == 'rosenblatt':
             return self._learn_rosenblatt()
 
@@ -246,7 +173,7 @@ class RosenblattClassifier(PerceptronUnit):
                 self.n_iter_ += 1
 
                 # 2. activation
-                net = self.net(l_set[i]['x'])
+                net = self.calc(l_set[i]['x'])
 
                 # 3. loss calculation
                 loss_simple_ = l_set[i]['d'] - net
@@ -272,7 +199,7 @@ class RosenblattClassifier(PerceptronUnit):
                     self.w_.append(np.append(self.weights_, [self.bias_]))
 
             # 6. calculation MSQ loss value
-            self.loss_value_ = sum([(l_set[i]['d'] - self.net(l_set[i]['x'])) ** 2 for i in range(len(l_set))])
+            self.loss_value_ = sum([(l_set[i]['d'] - self.calc(l_set[i]['x'])) ** 2 for i in range(len(l_set))])
 
             # 6*. logging
             if self.log_:
