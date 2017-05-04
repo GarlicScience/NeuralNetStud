@@ -81,244 +81,244 @@ Epoch 80 Vector_n = 80 loss = 0.0 weights = [ 0.003078  0.001244] bias = -0.002
 SQLoss =  10.0
 Epoch 81 Vector_n = 1 loss = 0.0 weights = [ 0.003078  0.001244] bias = -0.002
 Epoch 82 Vector_n = 2 loss = 0.0 weights = [ 0.003078  0.001244] bias = -0.002
-Epoch 83 Vector_n = 3 loss = -1.0 weights = [ 0.003078  0.001244] bias = -0.002
-Epoch 84 Vector_n = 4 loss = 0.0 weights = [ 0.002447  0.001005] bias = -0.003
-Epoch 85 Vector_n = 5 loss = 0.0 weights = [ 0.002447  0.001005] bias = -0.003
-Epoch 86 Vector_n = 6 loss = 0.0 weights = [ 0.002447  0.001005] bias = -0.003
-Epoch 87 Vector_n = 7 loss = 1.0 weights = [ 0.002447  0.001005] bias = -0.003
-Epoch 88 Vector_n = 8 loss = -1.0 weights = [ 0.003323  0.001589] bias = -0.002
-Epoch 89 Vector_n = 9 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 90 Vector_n = 10 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 91 Vector_n = 11 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 92 Vector_n = 12 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 93 Vector_n = 13 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 94 Vector_n = 14 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 95 Vector_n = 15 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 96 Vector_n = 16 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 97 Vector_n = 17 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 98 Vector_n = 18 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 99 Vector_n = 19 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 100 Vector_n = 20 loss = 0.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 101 Vector_n = 21 loss = 1.0 weights = [ 0.003067  0.000676] bias = -0.003
-Epoch 102 Vector_n = 22 loss = 0.0 weights = [ 0.003579  0.001535] bias = -0.002
-Epoch 103 Vector_n = 23 loss = 0.0 weights = [ 0.003579  0.001535] bias = -0.002
-Epoch 104 Vector_n = 24 loss = -1.0 weights = [ 0.003579  0.001535] bias = -0.002
-Epoch 105 Vector_n = 25 loss = 1.0 weights = [ 0.003049  0.001112] bias = -0.003
-Epoch 106 Vector_n = 26 loss = 0.0 weights = [ 0.003659  0.001841] bias = -0.002
-Epoch 107 Vector_n = 27 loss = 0.0 weights = [ 0.003659  0.001841] bias = -0.002
-Epoch 108 Vector_n = 28 loss = 0.0 weights = [ 0.003659  0.001841] bias = -0.002
-Epoch 109 Vector_n = 29 loss = -1.0 weights = [ 0.003659  0.001841] bias = -0.002
-Epoch 110 Vector_n = 30 loss = 0.0 weights = [ 0.003389  0.001085] bias = -0.003
-Epoch 111 Vector_n = 31 loss = 0.0 weights = [ 0.003389  0.001085] bias = -0.003
-Epoch 112 Vector_n = 32 loss = 0.0 weights = [ 0.003389  0.001085] bias = -0.003
-Epoch 113 Vector_n = 33 loss = 0.0 weights = [ 0.003389  0.001085] bias = -0.003
-Epoch 114 Vector_n = 34 loss = 0.0 weights = [ 0.003389  0.001085] bias = -0.003
-Epoch 115 Vector_n = 35 loss = 0.0 weights = [ 0.003389  0.001085] bias = -0.003
-Epoch 116 Vector_n = 36 loss = 1.0 weights = [ 0.003389  0.001085] bias = -0.003
-Epoch 117 Vector_n = 37 loss = 0.0 weights = [ 0.003954  0.002016] bias = -0.002
-Epoch 118 Vector_n = 38 loss = -1.0 weights = [ 0.003954  0.002016] bias = -0.002
-Epoch 119 Vector_n = 39 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 120 Vector_n = 40 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 121 Vector_n = 41 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 122 Vector_n = 42 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 123 Vector_n = 43 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 124 Vector_n = 44 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 125 Vector_n = 45 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 126 Vector_n = 46 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 127 Vector_n = 47 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 128 Vector_n = 48 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 129 Vector_n = 49 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 130 Vector_n = 50 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 131 Vector_n = 51 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 132 Vector_n = 52 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 133 Vector_n = 53 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 134 Vector_n = 54 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 135 Vector_n = 55 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 136 Vector_n = 56 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 137 Vector_n = 57 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 138 Vector_n = 58 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 139 Vector_n = 59 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 140 Vector_n = 60 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 141 Vector_n = 61 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 142 Vector_n = 62 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 143 Vector_n = 63 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 144 Vector_n = 64 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 145 Vector_n = 65 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 146 Vector_n = 66 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 147 Vector_n = 67 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 148 Vector_n = 68 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 149 Vector_n = 69 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 150 Vector_n = 70 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 151 Vector_n = 71 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 152 Vector_n = 72 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 153 Vector_n = 73 loss = 0.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 154 Vector_n = 74 loss = -1.0 weights = [ 0.003398  0.001867] bias = -0.003
-Epoch 155 Vector_n = 75 loss = 1.0 weights = [ 0.002597  0.001656] bias = -0.004
-Epoch 156 Vector_n = 76 loss = 0.0 weights = [ 0.003444  0.002399] bias = -0.003
-Epoch 157 Vector_n = 77 loss = 0.0 weights = [ 0.003444  0.002399] bias = -0.003
-Epoch 158 Vector_n = 78 loss = 0.0 weights = [ 0.003444  0.002399] bias = -0.003
-Epoch 159 Vector_n = 79 loss = 0.0 weights = [ 0.003444  0.002399] bias = -0.003
-Epoch 160 Vector_n = 80 loss = 0.0 weights = [ 0.003444  0.002399] bias = -0.003
+Epoch 83 Vector_n = 3 loss = 0.0 weights = [ 0.003078  0.001244] bias = -0.002
+Epoch 84 Vector_n = 4 loss = 0.0 weights = [ 0.003078  0.001244] bias = -0.002
+Epoch 85 Vector_n = 5 loss = -1.0 weights = [ 0.003078  0.001244] bias = -0.002
+Epoch 86 Vector_n = 6 loss = 0.0 weights = [ 0.002562  0.000861] bias = -0.003
+Epoch 87 Vector_n = 7 loss = 0.0 weights = [ 0.002562  0.000861] bias = -0.003
+Epoch 88 Vector_n = 8 loss = 0.0 weights = [ 0.002562  0.000861] bias = -0.003
+Epoch 89 Vector_n = 9 loss = 1.0 weights = [ 0.002562  0.000861] bias = -0.003
+Epoch 90 Vector_n = 10 loss = -1.0 weights = [ 0.003364  0.001482] bias = -0.002
+Epoch 91 Vector_n = 11 loss = 0.0 weights = [ 0.003184  0.000491] bias = -0.003
+Epoch 92 Vector_n = 12 loss = 0.0 weights = [ 0.003184  0.000491] bias = -0.003
+Epoch 93 Vector_n = 13 loss = 0.0 weights = [ 0.003184  0.000491] bias = -0.003
+Epoch 94 Vector_n = 14 loss = 0.0 weights = [ 0.003184  0.000491] bias = -0.003
+Epoch 95 Vector_n = 15 loss = 1.0 weights = [ 0.003184  0.000491] bias = -0.003
+Epoch 96 Vector_n = 16 loss = 0.0 weights = [ 0.003803  0.001354] bias = -0.002
+Epoch 97 Vector_n = 17 loss = 0.0 weights = [ 0.003803  0.001354] bias = -0.002
+Epoch 98 Vector_n = 18 loss = 0.0 weights = [ 0.003803  0.001354] bias = -0.002
+Epoch 99 Vector_n = 19 loss = 0.0 weights = [ 0.003803  0.001354] bias = -0.002
+Epoch 100 Vector_n = 20 loss = 0.0 weights = [ 0.003803  0.001354] bias = -0.002
+Epoch 101 Vector_n = 21 loss = 0.0 weights = [ 0.003803  0.001354] bias = -0.002
+Epoch 102 Vector_n = 22 loss = 0.0 weights = [ 0.003803  0.001354] bias = -0.002
+Epoch 103 Vector_n = 23 loss = 0.0 weights = [ 0.003803  0.001354] bias = -0.002
+Epoch 104 Vector_n = 24 loss = -1.0 weights = [ 0.003803  0.001354] bias = -0.002
+Epoch 105 Vector_n = 25 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 106 Vector_n = 26 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 107 Vector_n = 27 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 108 Vector_n = 28 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 109 Vector_n = 29 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 110 Vector_n = 30 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 111 Vector_n = 31 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 112 Vector_n = 32 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 113 Vector_n = 33 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 114 Vector_n = 34 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 115 Vector_n = 35 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 116 Vector_n = 36 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 117 Vector_n = 37 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 118 Vector_n = 38 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 119 Vector_n = 39 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 120 Vector_n = 40 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 121 Vector_n = 41 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 122 Vector_n = 42 loss = 0.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 123 Vector_n = 43 loss = 1.0 weights = [ 0.003273  0.000931] bias = -0.003
+Epoch 124 Vector_n = 44 loss = 0.0 weights = [ 0.003798  0.001871] bias = -0.002
+Epoch 125 Vector_n = 45 loss = 0.0 weights = [ 0.003798  0.001871] bias = -0.002
+Epoch 126 Vector_n = 46 loss = -1.0 weights = [ 0.003798  0.001871] bias = -0.002
+Epoch 127 Vector_n = 47 loss = 0.0 weights = [ 0.003553  0.000924] bias = -0.003
+Epoch 128 Vector_n = 48 loss = 0.0 weights = [ 0.003553  0.000924] bias = -0.003
+Epoch 129 Vector_n = 49 loss = 0.0 weights = [ 0.003553  0.000924] bias = -0.003
+Epoch 130 Vector_n = 50 loss = 0.0 weights = [ 0.003553  0.000924] bias = -0.003
+Epoch 131 Vector_n = 51 loss = 0.0 weights = [ 0.003553  0.000924] bias = -0.003
+Epoch 132 Vector_n = 52 loss = 0.0 weights = [ 0.003553  0.000924] bias = -0.003
+Epoch 133 Vector_n = 53 loss = 0.0 weights = [ 0.003553  0.000924] bias = -0.003
+Epoch 134 Vector_n = 54 loss = 1.0 weights = [ 0.003553  0.000924] bias = -0.003
+Epoch 135 Vector_n = 55 loss = -1.0 weights = [ 0.004103  0.001828] bias = -0.002
+Epoch 136 Vector_n = 56 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 137 Vector_n = 57 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 138 Vector_n = 58 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 139 Vector_n = 59 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 140 Vector_n = 60 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 141 Vector_n = 61 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 142 Vector_n = 62 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 143 Vector_n = 63 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 144 Vector_n = 64 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 145 Vector_n = 65 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 146 Vector_n = 66 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 147 Vector_n = 67 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 148 Vector_n = 68 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 149 Vector_n = 69 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 150 Vector_n = 70 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 151 Vector_n = 71 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 152 Vector_n = 72 loss = 0.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 153 Vector_n = 73 loss = 1.0 weights = [ 0.003501  0.0015  ] bias = -0.003
+Epoch 154 Vector_n = 74 loss = 0.0 weights = [ 0.003907  0.002482] bias = -0.002
+Epoch 155 Vector_n = 75 loss = 0.0 weights = [ 0.003907  0.002482] bias = -0.002
+Epoch 156 Vector_n = 76 loss = 0.0 weights = [ 0.003907  0.002482] bias = -0.002
+Epoch 157 Vector_n = 77 loss = 0.0 weights = [ 0.003907  0.002482] bias = -0.002
+Epoch 158 Vector_n = 78 loss = 0.0 weights = [ 0.003907  0.002482] bias = -0.002
+Epoch 159 Vector_n = 79 loss = -1.0 weights = [ 0.003907  0.002482] bias = -0.002
+Epoch 160 Vector_n = 80 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
 SQLoss =  4.0
-Epoch 161 Vector_n = 1 loss = 0.0 weights = [ 0.003444  0.002399] bias = -0.003
-Epoch 162 Vector_n = 2 loss = 0.0 weights = [ 0.003444  0.002399] bias = -0.003
-Epoch 163 Vector_n = 3 loss = -1.0 weights = [ 0.003444  0.002399] bias = -0.003
-Epoch 164 Vector_n = 4 loss = 0.0 weights = [ 0.003188  0.001486] bias = -0.004
-Epoch 165 Vector_n = 5 loss = 1.0 weights = [ 0.003188  0.001486] bias = -0.004
-Epoch 166 Vector_n = 6 loss = 0.0 weights = [ 0.00416   0.001755] bias = -0.003
-Epoch 167 Vector_n = 7 loss = -1.0 weights = [ 0.00416   0.001755] bias = -0.003
-Epoch 168 Vector_n = 8 loss = 0.0 weights = [ 0.003405  0.001723] bias = -0.004
-Epoch 169 Vector_n = 9 loss = 1.0 weights = [ 0.003405  0.001723] bias = -0.004
-Epoch 170 Vector_n = 10 loss = 0.0 weights = [ 0.003999  0.00272 ] bias = -0.003
-Epoch 171 Vector_n = 11 loss = -1.0 weights = [ 0.003999  0.00272 ] bias = -0.003
-Epoch 172 Vector_n = 12 loss = 1.0 weights = [ 0.003469  0.002297] bias = -0.004
-Epoch 173 Vector_n = 13 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 174 Vector_n = 14 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 175 Vector_n = 15 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 176 Vector_n = 16 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 177 Vector_n = 17 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 178 Vector_n = 18 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 179 Vector_n = 19 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 180 Vector_n = 20 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 181 Vector_n = 21 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 182 Vector_n = 22 loss = 0.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 183 Vector_n = 23 loss = -1.0 weights = [ 0.004325  0.002526] bias = -0.003
-Epoch 184 Vector_n = 24 loss = 0.0 weights = [ 0.004041  0.001702] bias = -0.004
-Epoch 185 Vector_n = 25 loss = 1.0 weights = [ 0.004041  0.001702] bias = -0.004
-Epoch 186 Vector_n = 26 loss = 0.0 weights = [ 0.00466   0.002565] bias = -0.003
-Epoch 187 Vector_n = 27 loss = 0.0 weights = [ 0.00466   0.002565] bias = -0.003
-Epoch 188 Vector_n = 28 loss = 0.0 weights = [ 0.00466   0.002565] bias = -0.003
-Epoch 189 Vector_n = 29 loss = 0.0 weights = [ 0.00466   0.002565] bias = -0.003
-Epoch 190 Vector_n = 30 loss = -1.0 weights = [ 0.00466   0.002565] bias = -0.003
-Epoch 191 Vector_n = 31 loss = 0.0 weights = [ 0.00448   0.001574] bias = -0.004
-Epoch 192 Vector_n = 32 loss = 0.0 weights = [ 0.00448   0.001574] bias = -0.004
-Epoch 193 Vector_n = 33 loss = 0.0 weights = [ 0.00448   0.001574] bias = -0.004
-Epoch 194 Vector_n = 34 loss = 0.0 weights = [ 0.00448   0.001574] bias = -0.004
-Epoch 195 Vector_n = 35 loss = 1.0 weights = [ 0.00448   0.001574] bias = -0.004
-Epoch 196 Vector_n = 36 loss = -1.0 weights = [ 0.005237  0.001946] bias = -0.003
-Epoch 197 Vector_n = 37 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 198 Vector_n = 38 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 199 Vector_n = 39 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 200 Vector_n = 40 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 201 Vector_n = 41 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 202 Vector_n = 42 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 203 Vector_n = 43 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 204 Vector_n = 44 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 205 Vector_n = 45 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 206 Vector_n = 46 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 207 Vector_n = 47 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 208 Vector_n = 48 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 209 Vector_n = 49 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 210 Vector_n = 50 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 211 Vector_n = 51 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 212 Vector_n = 52 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 213 Vector_n = 53 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 214 Vector_n = 54 loss = 0.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 215 Vector_n = 55 loss = 1.0 weights = [ 0.004606  0.001707] bias = -0.004
-Epoch 216 Vector_n = 56 loss = 0.0 weights = [ 0.005118  0.002566] bias = -0.003
-Epoch 217 Vector_n = 57 loss = 0.0 weights = [ 0.005118  0.002566] bias = -0.003
-Epoch 218 Vector_n = 58 loss = 0.0 weights = [ 0.005118  0.002566] bias = -0.003
-Epoch 219 Vector_n = 59 loss = 0.0 weights = [ 0.005118  0.002566] bias = -0.003
-Epoch 220 Vector_n = 60 loss = 0.0 weights = [ 0.005118  0.002566] bias = -0.003
-Epoch 221 Vector_n = 61 loss = -1.0 weights = [ 0.005118  0.002566] bias = -0.003
-Epoch 222 Vector_n = 62 loss = 0.0 weights = [ 0.004496  0.002433] bias = -0.004
-Epoch 223 Vector_n = 63 loss = 0.0 weights = [ 0.004496  0.002433] bias = -0.004
-Epoch 224 Vector_n = 64 loss = 0.0 weights = [ 0.004496  0.002433] bias = -0.004
-Epoch 225 Vector_n = 65 loss = 0.0 weights = [ 0.004496  0.002433] bias = -0.004
-Epoch 226 Vector_n = 66 loss = 0.0 weights = [ 0.004496  0.002433] bias = -0.004
-Epoch 227 Vector_n = 67 loss = -1.0 weights = [ 0.004496  0.002433] bias = -0.004
-Epoch 228 Vector_n = 68 loss = 1.0 weights = [ 0.003695  0.002222] bias = -0.005
-Epoch 229 Vector_n = 69 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 230 Vector_n = 70 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 231 Vector_n = 71 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 232 Vector_n = 72 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 233 Vector_n = 73 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 234 Vector_n = 74 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 235 Vector_n = 75 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 236 Vector_n = 76 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 237 Vector_n = 77 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 238 Vector_n = 78 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 239 Vector_n = 79 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 240 Vector_n = 80 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-SQLoss =  3.0
-Epoch 241 Vector_n = 1 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 242 Vector_n = 2 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 243 Vector_n = 3 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 244 Vector_n = 4 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 245 Vector_n = 5 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 246 Vector_n = 6 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 247 Vector_n = 7 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 248 Vector_n = 8 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 249 Vector_n = 9 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 250 Vector_n = 10 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 251 Vector_n = 11 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 252 Vector_n = 12 loss = 0.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 253 Vector_n = 13 loss = -1.0 weights = [ 0.004523  0.00309 ] bias = -0.004
-Epoch 254 Vector_n = 14 loss = 0.0 weights = [ 0.003722  0.002879] bias = -0.005
-Epoch 255 Vector_n = 15 loss = 0.0 weights = [ 0.003722  0.002879] bias = -0.005
-Epoch 256 Vector_n = 16 loss = 0.0 weights = [ 0.003722  0.002879] bias = -0.005
-Epoch 257 Vector_n = 17 loss = 0.0 weights = [ 0.003722  0.002879] bias = -0.005
-Epoch 258 Vector_n = 18 loss = 1.0 weights = [ 0.003722  0.002879] bias = -0.005
-Epoch 259 Vector_n = 19 loss = -1.0 weights = [ 0.004556  0.003484] bias = -0.004
-Epoch 260 Vector_n = 20 loss = 1.0 weights = [ 0.004376  0.002493] bias = -0.005
-Epoch 261 Vector_n = 21 loss = 0.0 weights = [ 0.005265  0.002862] bias = -0.004
-Epoch 262 Vector_n = 22 loss = 0.0 weights = [ 0.005265  0.002862] bias = -0.004
-Epoch 263 Vector_n = 23 loss = 0.0 weights = [ 0.005265  0.002862] bias = -0.004
-Epoch 264 Vector_n = 24 loss = 0.0 weights = [ 0.005265  0.002862] bias = -0.004
-Epoch 265 Vector_n = 25 loss = 0.0 weights = [ 0.005265  0.002862] bias = -0.004
-Epoch 266 Vector_n = 26 loss = 0.0 weights = [ 0.005265  0.002862] bias = -0.004
-Epoch 267 Vector_n = 27 loss = 0.0 weights = [ 0.005265  0.002862] bias = -0.004
-Epoch 268 Vector_n = 28 loss = -1.0 weights = [ 0.005265  0.002862] bias = -0.004
-Epoch 269 Vector_n = 29 loss = 0.0 weights = [ 0.004924  0.002033] bias = -0.005
-Epoch 270 Vector_n = 30 loss = 0.0 weights = [ 0.004924  0.002033] bias = -0.005
-Epoch 271 Vector_n = 31 loss = 0.0 weights = [ 0.004924  0.002033] bias = -0.005
-Epoch 272 Vector_n = 32 loss = 0.0 weights = [ 0.004924  0.002033] bias = -0.005
-Epoch 273 Vector_n = 33 loss = 1.0 weights = [ 0.004924  0.002033] bias = -0.005
-Epoch 274 Vector_n = 34 loss = 0.0 weights = [ 0.005799  0.002236] bias = -0.004
-Epoch 275 Vector_n = 35 loss = 0.0 weights = [ 0.005799  0.002236] bias = -0.004
-Epoch 276 Vector_n = 36 loss = 0.0 weights = [ 0.005799  0.002236] bias = -0.004
-Epoch 277 Vector_n = 37 loss = 0.0 weights = [ 0.005799  0.002236] bias = -0.004
-Epoch 278 Vector_n = 38 loss = -1.0 weights = [ 0.005799  0.002236] bias = -0.004
-Epoch 279 Vector_n = 39 loss = 1.0 weights = [ 0.005269  0.001813] bias = -0.005
-Epoch 280 Vector_n = 40 loss = 0.0 weights = [ 0.005781  0.002672] bias = -0.004
-Epoch 281 Vector_n = 41 loss = 0.0 weights = [ 0.005781  0.002672] bias = -0.004
-Epoch 282 Vector_n = 42 loss = -1.0 weights = [ 0.005781  0.002672] bias = -0.004
-Epoch 283 Vector_n = 43 loss = 0.0 weights = [ 0.005265  0.002289] bias = -0.005
-Epoch 284 Vector_n = 44 loss = 0.0 weights = [ 0.005265  0.002289] bias = -0.005
-Epoch 285 Vector_n = 45 loss = 0.0 weights = [ 0.005265  0.002289] bias = -0.005
-Epoch 286 Vector_n = 46 loss = 0.0 weights = [ 0.005265  0.002289] bias = -0.005
-Epoch 287 Vector_n = 47 loss = 0.0 weights = [ 0.005265  0.002289] bias = -0.005
-Epoch 288 Vector_n = 48 loss = 0.0 weights = [ 0.005265  0.002289] bias = -0.005
-Epoch 289 Vector_n = 49 loss = 0.0 weights = [ 0.005265  0.002289] bias = -0.005
-Epoch 290 Vector_n = 50 loss = 0.0 weights = [ 0.005265  0.002289] bias = -0.005
-Epoch 291 Vector_n = 51 loss = 1.0 weights = [ 0.005265  0.002289] bias = -0.005
-Epoch 292 Vector_n = 52 loss = -1.0 weights = [ 0.005815  0.003193] bias = -0.004
-Epoch 293 Vector_n = 53 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 294 Vector_n = 54 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 295 Vector_n = 55 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 296 Vector_n = 56 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 297 Vector_n = 57 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 298 Vector_n = 58 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 299 Vector_n = 59 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 300 Vector_n = 60 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 301 Vector_n = 61 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 302 Vector_n = 62 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 303 Vector_n = 63 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 304 Vector_n = 64 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 305 Vector_n = 65 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 306 Vector_n = 66 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 307 Vector_n = 67 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 308 Vector_n = 68 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 309 Vector_n = 69 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 310 Vector_n = 70 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 311 Vector_n = 71 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 312 Vector_n = 72 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 313 Vector_n = 73 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 314 Vector_n = 74 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 315 Vector_n = 75 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 316 Vector_n = 76 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 317 Vector_n = 77 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 318 Vector_n = 78 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 319 Vector_n = 79 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
-Epoch 320 Vector_n = 80 loss = 0.0 weights = [ 0.005193  0.00306 ] bias = -0.005
+Epoch 161 Vector_n = 1 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 162 Vector_n = 2 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 163 Vector_n = 3 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 164 Vector_n = 4 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 165 Vector_n = 5 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 166 Vector_n = 6 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 167 Vector_n = 7 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 168 Vector_n = 8 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 169 Vector_n = 9 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 170 Vector_n = 10 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 171 Vector_n = 11 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 172 Vector_n = 12 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 173 Vector_n = 13 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 174 Vector_n = 14 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 175 Vector_n = 15 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 176 Vector_n = 16 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 177 Vector_n = 17 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 178 Vector_n = 18 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 179 Vector_n = 19 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 180 Vector_n = 20 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 181 Vector_n = 21 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 182 Vector_n = 22 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 183 Vector_n = 23 loss = 0.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 184 Vector_n = 24 loss = -1.0 weights = [ 0.003404  0.002335] bias = -0.003
+Epoch 185 Vector_n = 25 loss = 0.0 weights = [ 0.002603  0.002124] bias = -0.004
+Epoch 186 Vector_n = 26 loss = 1.0 weights = [ 0.002603  0.002124] bias = -0.004
+Epoch 187 Vector_n = 27 loss = -1.0 weights = [ 0.003437  0.002729] bias = -0.003
+Epoch 188 Vector_n = 28 loss = 0.0 weights = [ 0.003181  0.001816] bias = -0.004
+Epoch 189 Vector_n = 29 loss = 0.0 weights = [ 0.003181  0.001816] bias = -0.004
+Epoch 190 Vector_n = 30 loss = 0.0 weights = [ 0.003181  0.001816] bias = -0.004
+Epoch 191 Vector_n = 31 loss = 1.0 weights = [ 0.003181  0.001816] bias = -0.004
+Epoch 192 Vector_n = 32 loss = -1.0 weights = [ 0.004025  0.00226 ] bias = -0.003
+Epoch 193 Vector_n = 33 loss = 0.0 weights = [ 0.003423  0.001932] bias = -0.004
+Epoch 194 Vector_n = 34 loss = 0.0 weights = [ 0.003423  0.001932] bias = -0.004
+Epoch 195 Vector_n = 35 loss = 0.0 weights = [ 0.003423  0.001932] bias = -0.004
+Epoch 196 Vector_n = 36 loss = 0.0 weights = [ 0.003423  0.001932] bias = -0.004
+Epoch 197 Vector_n = 37 loss = 0.0 weights = [ 0.003423  0.001932] bias = -0.004
+Epoch 198 Vector_n = 38 loss = 0.0 weights = [ 0.003423  0.001932] bias = -0.004
+Epoch 199 Vector_n = 39 loss = 0.0 weights = [ 0.003423  0.001932] bias = -0.004
+Epoch 200 Vector_n = 40 loss = 0.0 weights = [ 0.003423  0.001932] bias = -0.004
+Epoch 201 Vector_n = 41 loss = 1.0 weights = [ 0.003423  0.001932] bias = -0.004
+Epoch 202 Vector_n = 42 loss = -1.0 weights = [ 0.004017  0.002929] bias = -0.003
+Epoch 203 Vector_n = 43 loss = 1.0 weights = [ 0.003511  0.002512] bias = -0.004
+Epoch 204 Vector_n = 44 loss = 0.0 weights = [ 0.004023  0.003371] bias = -0.003
+Epoch 205 Vector_n = 45 loss = -1.0 weights = [ 0.004023  0.003371] bias = -0.003
+Epoch 206 Vector_n = 46 loss = 0.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 207 Vector_n = 47 loss = 0.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 208 Vector_n = 48 loss = 0.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 209 Vector_n = 49 loss = 0.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 210 Vector_n = 50 loss = 0.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 211 Vector_n = 51 loss = 0.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 212 Vector_n = 52 loss = 0.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 213 Vector_n = 53 loss = 0.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 214 Vector_n = 54 loss = 0.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 215 Vector_n = 55 loss = 1.0 weights = [ 0.003682  0.002542] bias = -0.004
+Epoch 216 Vector_n = 56 loss = 0.0 weights = [ 0.004088  0.003524] bias = -0.003
+Epoch 217 Vector_n = 57 loss = 0.0 weights = [ 0.004088  0.003524] bias = -0.003
+Epoch 218 Vector_n = 58 loss = 0.0 weights = [ 0.004088  0.003524] bias = -0.003
+Epoch 219 Vector_n = 59 loss = 0.0 weights = [ 0.004088  0.003524] bias = -0.003
+Epoch 220 Vector_n = 60 loss = 0.0 weights = [ 0.004088  0.003524] bias = -0.003
+Epoch 221 Vector_n = 61 loss = -1.0 weights = [ 0.004088  0.003524] bias = -0.003
+Epoch 222 Vector_n = 62 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 223 Vector_n = 63 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 224 Vector_n = 64 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 225 Vector_n = 65 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 226 Vector_n = 66 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 227 Vector_n = 67 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 228 Vector_n = 68 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 229 Vector_n = 69 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 230 Vector_n = 70 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 231 Vector_n = 71 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 232 Vector_n = 72 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 233 Vector_n = 73 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 234 Vector_n = 74 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 235 Vector_n = 75 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 236 Vector_n = 76 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 237 Vector_n = 77 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 238 Vector_n = 78 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 239 Vector_n = 79 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 240 Vector_n = 80 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+SQLoss =  5.0
+Epoch 241 Vector_n = 1 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 242 Vector_n = 2 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 243 Vector_n = 3 loss = 0.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 244 Vector_n = 4 loss = 1.0 weights = [ 0.003843  0.002577] bias = -0.004
+Epoch 245 Vector_n = 5 loss = 0.0 weights = [ 0.004711  0.00276 ] bias = -0.003
+Epoch 246 Vector_n = 6 loss = 0.0 weights = [ 0.004711  0.00276 ] bias = -0.003
+Epoch 247 Vector_n = 7 loss = -1.0 weights = [ 0.004711  0.00276 ] bias = -0.003
+Epoch 248 Vector_n = 8 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 249 Vector_n = 9 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 250 Vector_n = 10 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 251 Vector_n = 11 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 252 Vector_n = 12 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 253 Vector_n = 13 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 254 Vector_n = 14 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 255 Vector_n = 15 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 256 Vector_n = 16 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 257 Vector_n = 17 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 258 Vector_n = 18 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 259 Vector_n = 19 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 260 Vector_n = 20 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 261 Vector_n = 21 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 262 Vector_n = 22 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 263 Vector_n = 23 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 264 Vector_n = 24 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 265 Vector_n = 25 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 266 Vector_n = 26 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 267 Vector_n = 27 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 268 Vector_n = 28 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 269 Vector_n = 29 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 270 Vector_n = 30 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 271 Vector_n = 31 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 272 Vector_n = 32 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 273 Vector_n = 33 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 274 Vector_n = 34 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 275 Vector_n = 35 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 276 Vector_n = 36 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 277 Vector_n = 37 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 278 Vector_n = 38 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 279 Vector_n = 39 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 280 Vector_n = 40 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 281 Vector_n = 41 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 282 Vector_n = 42 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 283 Vector_n = 43 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 284 Vector_n = 44 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 285 Vector_n = 45 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 286 Vector_n = 46 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 287 Vector_n = 47 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 288 Vector_n = 48 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 289 Vector_n = 49 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 290 Vector_n = 50 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 291 Vector_n = 51 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 292 Vector_n = 52 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 293 Vector_n = 53 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 294 Vector_n = 54 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 295 Vector_n = 55 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 296 Vector_n = 56 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 297 Vector_n = 57 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 298 Vector_n = 58 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 299 Vector_n = 59 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 300 Vector_n = 60 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 301 Vector_n = 61 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 302 Vector_n = 62 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 303 Vector_n = 63 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 304 Vector_n = 64 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 305 Vector_n = 65 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 306 Vector_n = 66 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 307 Vector_n = 67 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 308 Vector_n = 68 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 309 Vector_n = 69 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 310 Vector_n = 70 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 311 Vector_n = 71 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 312 Vector_n = 72 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 313 Vector_n = 73 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 314 Vector_n = 74 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 315 Vector_n = 75 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 316 Vector_n = 76 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 317 Vector_n = 77 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 318 Vector_n = 78 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 319 Vector_n = 79 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
+Epoch 320 Vector_n = 80 loss = 0.0 weights = [ 0.004109  0.002432] bias = -0.004
 SQLoss =  0.0

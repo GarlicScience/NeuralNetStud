@@ -41,7 +41,6 @@ X_learn, d_learn, X_pract, d_pract = dt.split_4_to_1(a, b)
 
 # initializing classifier
 classifier_ = pt.RosenblattClassifier(2, function='sgn', learning_rate=0.001)
-classifier_.initialize_net()
 classifier_.set_log_(True)
 
 # teaching classifier
@@ -51,14 +50,27 @@ print(classifier_.learn())
 # saving weights
 save_weights(classifier_.weights_, classifier_.bias_)
 
-# for i in range(len(d_learn)):
-#     print(classifier_.net(X_learn[i]) - d_learn[i])
+X_check = []
+for i in range(40):
+    X_check.append(np.random.uniform(0,1,2))
+
+for i in range(len(X_check)):
+    print(X_check[i][0], X_check[i][1], classifier_.calc(X_check[i]))
+
+# plotting convergence diagram
+# plt.plot(classifier_.ep_, classifier_.l_)
+# plt.show()
 
 # visualizing 2d case!
-plt.scatter([a[i][0] for i in range(len(a)) if b[i] != 1],
-            [a[i][1] for i in range(len(a)) if b[i] != 1], s=2)
-plt.scatter([a[i][0] for i in range(len(a)) if b[i] == 1],
-            [a[i][1] for i in range(len(a)) if b[i] == 1], s=2)
+# plt.scatter([a[i][0] for i in range(len(a)) if b[i] != 1],
+#             [a[i][1] for i in range(len(a)) if b[i] != 1], s=2)
+# plt.scatter([a[i][0] for i in range(len(a)) if b[i] == 1],
+#             [a[i][1] for i in range(len(a)) if b[i] == 1], s=2)
+
+plt.scatter([X_check[i][0] for i in range(len(X_check)) if classifier_.calc(X_check[i]) != 1],
+            [X_check[i][1] for i in range(len(X_check)) if classifier_.calc(X_check[i]) != 1], s=2)
+plt.scatter([X_check[i][0] for i in range(len(X_check)) if classifier_.calc(X_check[i]) == 1],
+            [X_check[i][1] for i in range(len(X_check)) if classifier_.calc(X_check[i]) == 1], s=2)
 x = np.linspace(0, 1)
 y = (-classifier_.weights_[0] * x - classifier_.bias_) / classifier_.weights_[1]
 plt.plot(x,y,color='k',linewidth=1)

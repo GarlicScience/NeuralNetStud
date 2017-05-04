@@ -3,13 +3,9 @@
 
 import numpy as np
 
-from enum import Enum
+from tools import learning_ as lr
 from tools import activation_ as ac
 from basics import cell_units as unit_
-
-
-class LearningResult(Enum):
-    CONVERGENCE, DIVERGENCE = 0, 1
 
 
 class RosenblattClassifier(unit_.CellUnit):
@@ -73,7 +69,7 @@ class RosenblattClassifier(unit_.CellUnit):
     """
 
     def __init__(self, input_size, function='sgn', method='rosenblatt', learning_rate=0.001,
-                 max_iter=0, epsilon=1e-3, alpha=1000, weights_=None, bias_=None):
+                 max_iter=0, epsilon=1e-3, alpha=1, weights_=None, bias_=None):
         self.init(input_size, function, weights_=weights_, bias_=bias_, alpha=alpha)
         self.learning_rate = learning_rate
         self.max_iter = max_iter
@@ -87,19 +83,9 @@ class RosenblattClassifier(unit_.CellUnit):
         self.visualization_ = 0
         self.log_ = False
         self.w_ = []
+        self.l_ = []
+        self.ep_ = []
         self.log_path = None
-
-    def initialize_net(self):
-        """ Initializes:
-             * weights as zero values list
-             * biases as zero value
-        """
-        self.weights_ = np.zeros(self.input_size)
-        self.bias_ = 0
-        self.w_.append(np.append(self.weights_, [self.bias_]))
-        self.n_iter_ = 1
-        self.n_epoch_ = 0
-        self.loss_value_ = None
 
     def put_data(self, X_, d_):
         """
@@ -128,20 +114,15 @@ class RosenblattClassifier(unit_.CellUnit):
         self.log_ = log_
         self.log_path = log_path
 
-    def _pack(self):
-        """ Turns learning set into a list of dicts = [{'x': X_[0], 'd': d_[0]}, {'x': X_[1], 'd': d_[1]}, ...]
-        :return: pack : dict (see above)
-        """
-        assert np.ndim(self.X_) != len(self.d_), 'Wrong data-set! ERR: Count of learning input vectors'
-        pack = []
-        for i in range(len(self.d_)):
-            pack.append({'x': np.array(self.X_[i]), 'd': self.d_[i]})
-        return pack
-
     def learn(self):
         """Learning procedure. Executes learning methods up to set.
         :return LearningResult.CONVERGENCE or LearningResult.DIVERGENCE up to algorithm success"""
         assert self.function in ac.ACTIVATION.keys(), 'ERR: Wrong activation function'
+
+        self.n_iter_ = 1
+        self.n_epoch_ = 0
+        self.w_.append(np.append(self.weights_, [self.bias_]))
+
         if self.method == 'rosenblatt':
             return self._learn_rosenblatt()
 
@@ -154,7 +135,7 @@ class RosenblattClassifier(unit_.CellUnit):
 
         # 1. initialization
         self.n_iter_ = 0
-        l_set = self._pack()
+        l_set = self._pack(self.X_, self.d_)
 
         # 1*. log initialization
         # TODO: create new log-files handling their count...
@@ -184,6 +165,8 @@ class RosenblattClassifier(unit_.CellUnit):
                           str(loss_simple_) + ' weights = ' + str(self.weights_) + ' bias = ' + str(self.bias_),
                           file=log_file)
 
+
+
                 # 4. checking end-loop condition
                 if abs(loss_simple_) < self.epsilon:
                     continue
@@ -200,6 +183,8 @@ class RosenblattClassifier(unit_.CellUnit):
 
             # 6. calculation MSQ loss value
             self.loss_value_ = sum([(l_set[i]['d'] - self.calc(l_set[i]['x'])) ** 2 for i in range(len(l_set))])
+            self.l_.append(self.loss_value_)
+            self.ep_.append(self.n_epoch_)
 
             # 6*. logging
             if self.log_:
@@ -207,7 +192,7 @@ class RosenblattClassifier(unit_.CellUnit):
 
             # 7. checking main end-loop condition
             if self.loss_value_ < self.epsilon:
-                return LearningResult.CONVERGENCE
+                return lr.LearningResult.CONVERGENCE
 
             # 8. shuffling learning set: randomized optimization
             np.random.shuffle(l_set)
@@ -215,5 +200,5 @@ class RosenblattClassifier(unit_.CellUnit):
         if self.log_:
             log_file.close()
 
-        return LearningResult.DIVERGENCE
+        return lr.LearningResult.DIVERGENCE
 
